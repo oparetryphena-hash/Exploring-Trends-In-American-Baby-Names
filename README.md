@@ -37,6 +37,14 @@ Period Covered: 1920 – 2020
 | **Self-Joins** | Compare female names between 1920 and 2020 |
 | **Filtering & Sorting** (`WHERE`, `ORDER BY`, `LIMIT`) | Extract focused and readable result sets |
 
+###  1.Top Five Names (Classic vs. Trendy)
+
+*Query available in [`sql_scripts/top_five_names.sql`](notebook(1).ipynb)*
+
+**Insight:**
+This query highlights the most enduring names across a century. *Classic* names show consistent use, while *Trendy* names surge briefly and fade.
+
+
 
 
 
