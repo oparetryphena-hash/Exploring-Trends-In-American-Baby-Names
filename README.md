@@ -40,11 +40,35 @@ Period Covered: 1920 – 2020
 ###  1.Top Five Names (Classic vs. Trendy)
 
 *Query available in **1️ Top Five Names (Classic vs. Trendy)**
-
 *Full SQL query available in [`notebook (1).ipynb`](notebook%20(1).ipynb)*
-
 **Insight:**
 This query highlights the most enduring names across a century. *Classic* names show consistent use, while *Trendy* names surge briefly and fade.
+
+### 2. Top 20 Male Names & Rank of “Paul”**
+*Full SQL query available in [`notebook (1).ipynb`](notebook%20(1).ipynb)*
+**Insight:**
+This ranking reveals traditional male names that have dominated over time. The position of **“Paul”** shows how some names maintain modest popularity compared to cultural icons like *James* or *John*.
+### 3. Female Names Appearing in Both 1920 and 2020**
+*Full SQL query available in [`notebook (1).ipynb`](notebook%20(1).ipynb)*
+**Insight:**
+This identifies names with remarkable longevity. Names like *Mary*, *Elizabeth*, and *Anna* appear in both years, reflecting enduring cross-generational appeal.
+
+## Key Insights
+
+* **Classic names** (e.g., James, Mary, John) have persisted for decades, reflecting cultural stability.
+* **Trendy names** emerge and fade quickly, often tied to pop culture or famous personalities.
+* **Male names** tend to remain popular longer, while **female names** show faster trend cycles.
+* The dataset showcases the **power of SQL** in extracting cultural and demographic patterns through data.
+
+## Tools & Environment
+
+* **Database:** PostgreSQL
+* **Interface:** Jupyter Notebook (`ipython-sql` extension)
+
+##  Conclusion
+This PostgreSQL project demonstrates how SQL can be used for data storytelling and historical insight.
+By combining analytical techniques like CTEs, window functions, and joins, it uncovers how American naming culture evolved over a century ,balancing tradition and trend.
+
 
 
 
