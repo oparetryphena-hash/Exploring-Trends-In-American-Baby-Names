@@ -20,3 +20,24 @@ Period Covered: 1920 – 2020
 | `sex` | VARCHAR | Gender of the baby (`M` or `F`) |
 | `num` | INTEGER | Number of babies registered with that name |
 
+
+##  Objectives
+
+1. Identify the overall top five baby names and classify them as *Classic* or *Trendy*.  
+2. Find the top 20 male names and determine where “Paul” ranks among them.  
+3. Discover female names appearing in both 1920 and 2020, showing long-term popularity.
+## SQL Techniques Used
+
+| Technique | Purpose |
+|------------|----------|
+| **Common Table Expressions (CTEs)** | Simplify multi-step logic and reuse subquery results |
+| **Aggregate Functions** (`SUM`, `COUNT`) | Compute total occurrences per name |
+| **Window Functions** (`RANK() OVER`) | Rank male names by total popularity |
+| **Conditional Logic** (`CASE WHEN`) | Classify names as *Classic* or *Trendy* |
+| **Self-Joins** | Compare female names between 1920 and 2020 |
+| **Filtering & Sorting** (`WHERE`, `ORDER BY`, `LIMIT`) | Extract focused and readable result sets |
+
+
+
+
+
