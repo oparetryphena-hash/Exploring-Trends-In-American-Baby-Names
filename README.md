@@ -39,7 +39,9 @@ Period Covered: 1920 – 2020
 
 ###  1.Top Five Names (Classic vs. Trendy)
 
-*Query available in [`sql_scripts/top_five_names.sql`](notebook(1).ipynb)*
+*Query available in **1️ Top Five Names (Classic vs. Trendy)**
+
+*Full SQL query available in [`notebook (1).ipynb`](notebook%20(1).ipynb)*
 
 **Insight:**
 This query highlights the most enduring names across a century. *Classic* names show consistent use, while *Trendy* names surge briefly and fade.
