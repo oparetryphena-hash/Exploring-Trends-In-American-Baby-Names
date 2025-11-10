@@ -5,3 +5,9 @@ This project analyzes historical trends in baby names in the United States betwe
 The goal is to uncover long-term naming patterns, identify names that have remained popular over time, and highlight how social and cultural changes influence naming preferences.
 
 The analysis was performed entirely in PostgreSQL, with queries executed through Jupyter Notebook using the `ipython-sql` extension.
+
+##  Dataset Information
+
+Source: [U.S. Social Security Administration (SSA)](https://www.ssa.gov/oact/babynames/)  
+Description:Contains all first names given to babies in the U.S. for each year, along with gender and number of registered births.  
+Period Covered: 1920 – 2020  
