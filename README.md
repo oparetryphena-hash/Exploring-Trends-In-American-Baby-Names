@@ -11,3 +11,12 @@ The analysis was performed entirely in PostgreSQL, with queries executed through
 Source: [U.S. Social Security Administration (SSA)](https://www.ssa.gov/oact/babynames/)  
 Description:Contains all first names given to babies in the U.S. for each year, along with gender and number of registered births.  
 Period Covered: 1920 – 2020  
+
+
+| Column | Type | Description |
+|---------|------|-------------|
+| `year` | INTEGER | Year of record |
+| `first_name` | VARCHAR | Baby’s first name |
+| `sex` | VARCHAR | Gender of the baby (`M` or `F`) |
+| `num` | INTEGER | Number of babies registered with that name |
+
